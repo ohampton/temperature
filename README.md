@@ -12,8 +12,8 @@
 
 
 
-textbox for years
-calculate button
+user selects fraenheit or Celsius
+enters temperature
+hits calculate
 
-output
-in human years your dog is {age}
+
