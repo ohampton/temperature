@@ -12,8 +12,6 @@
 
 
 
-user selects fraenheit or Celsius
-enters temperature
-hits calculate
+
 
 
