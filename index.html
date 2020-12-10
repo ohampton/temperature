@@ -16,22 +16,15 @@
 
     <h1>Convert Temperature</h1>
     <span>Celsius</span>
-    <input id="celcius" type="radio" onclick="toFarenheit()">
+    <input id="celciusTemp" type="radio" onclick="chooseUnit()" name="unit" value="celsiusTemp">
     <br>
     <span>Farenheit</span> 
-    <input id="farenheit" type="radio" onclick="toCelsius()">
+    <input id="farenheitTemp" type="radio" onclick="chooseUnit()" name="unit" value="farenheitTemp">
     <br>
-    <input type="text">
+    <input id="userInput" type="text" onkeyup="selectUnit()"> <br>
+    <input id="userOutput" type="text" onkeyup="selectUnit()">
+    
 
-
-
-
-    <!-- <h2>Temperature Converter</h2>
-    <input type="radio">
-    <input type="radio">
-    <br>
-    <input id="farenheitInput" type="text">
-    <button  id="calculate" type="button" onclick="toCelsius()">Calculate</button> -->
     
     
     <!-- load main.js -->
